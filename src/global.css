@@ -1,0 +1,69 @@
+@import '~tachyons/css/tachyons.min.css';
+
+:root {
+  --color-gray: rgba(15, 20, 25, 0.1);
+  --color-primary: rgb(29, 155, 240);
+  --color-primary-light: rgba(29, 155, 240, 0.1);
+  --color-primary-dark: rgb(31, 147, 224);
+
+  --font-primary: 'Lato', sans-serif;
+}
+
+body,
+html {
+  font-family: var(--font-primary);
+  font-size: 16px;
+}
+
+.btn {
+  border: none;
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--color-gray);
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: var(--color-primary-dark);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.bg-gray {
+  background-color: var(--color-gray);
+}
+
+.w125 {
+  width: 1.25rem;
+}
+
+.h125 {
+  height: 1.25rem;
+}
+
+.w15 {
+  width: 1.5rem;
+}
+
+.h15 {
+  height: 1.5rem;
+}
+
+.w25 {
+  width: 3rem;
+}
+
+.h25 {
+  height: 3rem;
+}

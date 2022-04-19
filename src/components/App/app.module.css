@@ -1,0 +1,32 @@
+.container {
+  max-width: 1265px;
+}
+
+.mainContent {
+  width: 600px;
+  border-left: 1px solid var(--color-gray);
+  border-right: 1px solid var(--color-gray);
+}
+
+.leftSidebar,
+.leftSidebar > div {
+  width: 270px;
+}
+
+.tweetArea {
+  border: none;
+  resize: none;
+}
+
+.tweetArea:focus {
+  outline: none;
+}
+
+.tweetToolbar button {
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.tweetToolbar button:hover {
+  background-color: var(--color-primary-light);
+}
