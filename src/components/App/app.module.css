@@ -30,3 +30,52 @@
 .tweetToolbar button:hover {
   background-color: var(--color-primary-light);
 }
+
+.tweetComposer,
+.timelineTweet {
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.timelineToolbar button,
+.timelineToolbar button:hover {
+  background-color: transparent;
+}
+
+.timelineToolbar button:hover {
+  color: var(--color-primary);
+}
+
+.timelineToolbar button:hover svg {
+  background-color: var(--color-primary-light);
+}
+
+.timelineToolbar button:nth-of-type(2):hover {
+  color: var(--color-green);
+}
+
+.timelineToolbar button:nth-of-type(2):hover svg {
+  background-color: var(--color-green-light);
+}
+
+.timelineToolbar button:nth-of-type(3):hover {
+  color: var(--color-red);
+}
+
+.timelineToolbar button:nth-of-type(3):hover svg {
+  background-color: var(--color-red-light);
+}
+
+.timelineTweet:hover {
+  background-color: var(--color-gray-light);
+  cursor: pointer;
+}
+
+.timelineTweet a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.timelineTweet a:hover {
+  text-decoration: underline;
+}
